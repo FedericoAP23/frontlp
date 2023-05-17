@@ -1,0 +1,28 @@
+body {background-color: beige; 
+}
+
+#comida {color: darkcyan;}
+#comida {text-decoration-line: underline;}
+#comida {text-align: center;}
+
+.titulos {color: red;} 
+.titulos {text-decoration-line: underline;}
+
+#pasos {font-size: x-large;}
+#pasos {text-align: center;}
+
+img.tamaño{
+    width: 500px;
+    height: 300px;
+}
+
+img.social{
+    width: 100px;
+    height: 100px;
+}
+
+img.grupo{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
