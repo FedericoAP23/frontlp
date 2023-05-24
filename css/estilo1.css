@@ -1,12 +1,14 @@
 body {background-color: beige; 
 }
 
-#comida {color: darkcyan;}
-#comida {text-decoration-line: underline;}
-#comida {text-align: center;}
+#comida {color: darkcyan;
+    text-decoration-line: underline;
+    text-align: center;
+}
 
-.titulos {color: red;} 
-.titulos {text-decoration-line: underline;}
+.titulos {color: red;
+    text-decoration-line: underline;
+} 
 
 #pasos {font-size: x-large;}
 #pasos {text-align: center;}
@@ -24,5 +26,36 @@ img.social{
 img.grupo{
     width: 100px;
     height: 100px;
-    float: right;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+img.facebook {
+    width: 100px;
+    height: 100px;
+}
+
+img.youtube {
+    width: 100px;
+    height: 100px;
+}
+
+.cabeza {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.logos {
+    display: flex;
+}
+
+footer{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
 }
